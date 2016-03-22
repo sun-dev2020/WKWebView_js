@@ -1,7 +1,7 @@
 # WKWebView_js
 js和native之间的传值和反射
 
-
+ js -> Native -> js 回调+传值的数据通道
 1.js向native层的传值和反射  
  
  step1， 新建Console.js，在里面有console 和 log函数。以及对应native层中的类Console.h, 和处理函数-log:   
